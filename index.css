@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(215, 225, 238);
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-background {
+    /* Center the QR background */
+    position: relative;
+
+    background-color: white;
+    width: 290px;
+    height: 446px;
+    border-radius: 16px;
+}
+
+#qr-image {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    padding: 16px;
+    border-radius: 26px;
+}
+
+#qr-heading {
+    box-sizing: border-box;
+    position: absolute;
+    top: 65%;
+
+    padding-left: 16px;
+    padding-right: 16px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(38, 48, 71);
+}
+
+#qr-body {
+    box-sizing: border-box;
+    position: absolute;
+    top: 78%;
+
+    padding-left: 28px;
+    padding-right: 28px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(173, 175, 180);
+}
